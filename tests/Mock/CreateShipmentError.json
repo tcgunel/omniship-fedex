@@ -1,0 +1,15 @@
+{
+    "transactionId": "624deea6-b709-470c-8c39-4b5511281493",
+    "errors": [
+        {
+            "code": "INVALID.INPUT.EXCEPTION",
+            "message": "Invalid account number",
+            "parameterList": [
+                {
+                    "key": "accountNumber",
+                    "value": "invalid"
+                }
+            ]
+        }
+    ]
+}

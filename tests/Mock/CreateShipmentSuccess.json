@@ -1,0 +1,49 @@
+{
+    "transactionId": "624deea6-b709-470c-8c39-4b5511281492",
+    "output": {
+        "transactionShipments": [
+            {
+                "masterTrackingNumber": "794644790138",
+                "serviceType": "FEDEX_GROUND",
+                "shipDatestamp": "2026-03-12",
+                "serviceName": "FedEx Ground",
+                "pieceResponses": [
+                    {
+                        "masterTrackingNumber": "794644790138",
+                        "trackingNumber": "794644790138",
+                        "packageDocuments": [
+                            {
+                                "contentType": "LABEL",
+                                "encodingType": "BASE64",
+                                "url": null,
+                                "content": "JVBERi0xLjQKMSAwIG9iago8PC9UeXBlL0NhdGFsb2cvUGFnZXMgMiAwIFI+PgplbmRvYmoK"
+                            }
+                        ]
+                    }
+                ],
+                "completedShipmentDetail": {
+                    "completedPackageDetails": [
+                        {
+                            "trackingIds": [
+                                {
+                                    "trackingIdType": "FEDEX",
+                                    "trackingNumber": "794644790138"
+                                }
+                            ]
+                        }
+                    ],
+                    "shipmentRating": {
+                        "actualRateType": "PAYOR_ACCOUNT_PACKAGE",
+                        "shipmentRateDetails": [
+                            {
+                                "rateType": "PAYOR_ACCOUNT_PACKAGE",
+                                "totalNetCharge": 15.75,
+                                "currency": "USD"
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

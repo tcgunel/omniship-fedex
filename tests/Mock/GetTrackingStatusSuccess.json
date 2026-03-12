@@ -1,0 +1,111 @@
+{
+    "transactionId": "624deea6-b709-470c-8c39-4b5511281494",
+    "output": {
+        "completeTrackResults": [
+            {
+                "trackingNumber": "794644790138",
+                "trackResults": [
+                    {
+                        "trackingNumberInfo": {
+                            "trackingNumber": "794644790138",
+                            "trackingNumberUniqueId": "12345",
+                            "carrierCode": "FDXG"
+                        },
+                        "latestStatusDetail": {
+                            "code": "DL",
+                            "derivedCode": "DL",
+                            "statusByLocale": "Delivered",
+                            "description": "Delivered",
+                            "scanLocation": {
+                                "city": "MEMPHIS",
+                                "stateOrProvinceCode": "TN",
+                                "countryCode": "US",
+                                "postalCode": "38118"
+                            }
+                        },
+                        "dateAndTimes": [
+                            {
+                                "type": "ACTUAL_DELIVERY",
+                                "dateTime": "2026-03-15T14:30:00-05:00"
+                            },
+                            {
+                                "type": "SHIP",
+                                "dateTime": "2026-03-12T10:00:00-05:00"
+                            }
+                        ],
+                        "deliveryDetails": {
+                            "receivedByName": "John Smith",
+                            "deliveryAttempts": "1"
+                        },
+                        "scanEvents": [
+                            {
+                                "date": "2026-03-15T14:30:00-05:00",
+                                "eventType": "DL",
+                                "eventDescription": "Delivered",
+                                "scanLocation": {
+                                    "city": "MEMPHIS",
+                                    "stateOrProvinceCode": "TN",
+                                    "countryCode": "US"
+                                },
+                                "derivedStatusCode": "DL"
+                            },
+                            {
+                                "date": "2026-03-15T08:00:00-05:00",
+                                "eventType": "OD",
+                                "eventDescription": "On FedEx vehicle for delivery",
+                                "scanLocation": {
+                                    "city": "MEMPHIS",
+                                    "stateOrProvinceCode": "TN",
+                                    "countryCode": "US"
+                                },
+                                "derivedStatusCode": "OD"
+                            },
+                            {
+                                "date": "2026-03-14T06:00:00-05:00",
+                                "eventType": "AR",
+                                "eventDescription": "Arrived at FedEx location",
+                                "scanLocation": {
+                                    "city": "MEMPHIS",
+                                    "stateOrProvinceCode": "TN",
+                                    "countryCode": "US"
+                                },
+                                "derivedStatusCode": "IT"
+                            },
+                            {
+                                "date": "2026-03-13T20:00:00-05:00",
+                                "eventType": "DP",
+                                "eventDescription": "Departed FedEx location",
+                                "scanLocation": {
+                                    "city": "INDIANAPOLIS",
+                                    "stateOrProvinceCode": "IN",
+                                    "countryCode": "US"
+                                },
+                                "derivedStatusCode": "IT"
+                            },
+                            {
+                                "date": "2026-03-12T10:00:00-05:00",
+                                "eventType": "PU",
+                                "eventDescription": "Picked up",
+                                "scanLocation": {
+                                    "city": "INDIANAPOLIS",
+                                    "stateOrProvinceCode": "IN",
+                                    "countryCode": "US"
+                                },
+                                "derivedStatusCode": "PU"
+                            }
+                        ],
+                        "serviceDetail": {
+                            "type": "FEDEX_GROUND",
+                            "description": "FedEx Ground"
+                        },
+                        "estimatedDeliveryTimeWindow": {
+                            "window": {
+                                "ends": "2026-03-16T00:00:00-05:00"
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

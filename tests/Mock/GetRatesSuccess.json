@@ -1,0 +1,76 @@
+{
+    "transactionId": "624deea6-b709-470c-8c39-4b5511281495",
+    "output": {
+        "rateReplyDetails": [
+            {
+                "serviceType": "FEDEX_GROUND",
+                "serviceName": "FedEx Ground",
+                "packagingType": "YOUR_PACKAGING",
+                "ratedShipmentDetails": [
+                    {
+                        "rateType": "ACCOUNT",
+                        "totalNetCharge": 15.75,
+                        "currency": "USD",
+                        "totalBaseCharge": 12.50,
+                        "totalSurcharges": 3.25,
+                        "totalNetChargeWithDutiesAndTaxes": 15.75
+                    }
+                ],
+                "commit": {
+                    "dateDetail": {
+                        "dayFormat": "2026-03-16"
+                    },
+                    "transitDays": {
+                        "description": "3"
+                    }
+                }
+            },
+            {
+                "serviceType": "FEDEX_EXPRESS_SAVER",
+                "serviceName": "FedEx Express Saver",
+                "packagingType": "YOUR_PACKAGING",
+                "ratedShipmentDetails": [
+                    {
+                        "rateType": "ACCOUNT",
+                        "totalNetCharge": 25.50,
+                        "currency": "USD",
+                        "totalBaseCharge": 20.00,
+                        "totalSurcharges": 5.50,
+                        "totalNetChargeWithDutiesAndTaxes": 25.50
+                    }
+                ],
+                "commit": {
+                    "dateDetail": {
+                        "dayFormat": "2026-03-14"
+                    },
+                    "transitDays": {
+                        "description": "1"
+                    }
+                }
+            },
+            {
+                "serviceType": "FEDEX_2_DAY",
+                "serviceName": "FedEx 2Day",
+                "packagingType": "YOUR_PACKAGING",
+                "ratedShipmentDetails": [
+                    {
+                        "rateType": "ACCOUNT",
+                        "totalNetCharge": 32.00,
+                        "currency": "USD",
+                        "totalBaseCharge": 26.00,
+                        "totalSurcharges": 6.00,
+                        "totalNetChargeWithDutiesAndTaxes": 32.00
+                    }
+                ],
+                "commit": {
+                    "dateDetail": {
+                        "dayFormat": "2026-03-15"
+                    },
+                    "transitDays": {
+                        "description": "2"
+                    }
+                }
+            }
+        ]
+    }
+}
